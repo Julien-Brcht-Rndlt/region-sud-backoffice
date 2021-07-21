@@ -1,6 +1,5 @@
 import './App.css';
 import { Admin, Resource } from 'react-admin';
-/* import lb4Provider from 'react-admin-lb4'; */
 import simpleRestProvider from 'ra-data-simple-rest';
 import ResultsList from './components/ResultsList'
 import OrganizationsList from './components/OrganizationsList'

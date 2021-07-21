@@ -1,6 +1,6 @@
 import { List, Datagrid, TextField, Filter, SearchInput } from 'react-admin';
 
-const resultsFilter = (props) => (
+const ResultsFilter = (props) => (
   <Filter {...props}>
     <SearchInput
       placeholder='Search a result by activity'
@@ -15,7 +15,7 @@ const resultsFilter = (props) => (
 function ResultsList(props) {
 
   return (
-    <List {...props} filters={<resultsFilter />} >
+    <List {...props} filters={<ResultsFilter />} >
       <Datagrid>
         <TextField source='id' />
         <TextField source='title' />
